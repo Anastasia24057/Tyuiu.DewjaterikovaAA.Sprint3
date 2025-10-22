@@ -10,7 +10,7 @@ namespace Tyuiu.DewjaterikovaAA.Sprint3.Task3.V4.Lib
             {
                 if (chr == item)
                 {
-                    value = value.Replace(item, ' ');
+                    value = value.Replace(chr.ToString(), String.Empty);
                 }
             }
             return value;

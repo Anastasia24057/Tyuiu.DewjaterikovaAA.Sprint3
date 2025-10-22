@@ -12,7 +12,7 @@ namespace Tyuiu.DewjaterikovaAA.Sprint3.Task3.V4.Test
             string str = "plkjjdw cvjkl";
             char chr = 'j';
             string res = ds.DeleteCharInString(str, chr);
-            string wait = "plk  dw cv kl";
+            string wait = "plkdw cvkl";
             Assert.AreEqual(wait, res);
 
         }
